@@ -115,4 +115,95 @@
         app:layout_constraintStart_toEndOf="@+id/buttonRent"
         app:layout_constraintTop_toTopOf="@id/barrier" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton5"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toStartOf="@+id/floatingActionButton6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/guidelineLeft"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRent"
+        app:srcCompat="@drawable/ic_bookmark" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton6"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toStartOf="@+id/floatingActionButton7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton5"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRent"
+        app:srcCompat="@drawable/ic_view_carousel_24px" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton7"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toStartOf="@+id/floatingActionButton8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton6"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBuy"
+        app:srcCompat="@drawable/ic_people_24px" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton8"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:backgroundTint="@color/colorPrimary"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton7"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBuy"
+        app:srcCompat="@drawable/tomato" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Rating"
+        app:layout_constraintEnd_toEndOf="@+id/floatingActionButton5"
+        app:layout_constraintStart_toStartOf="@+id/floatingActionButton5"
+        app:layout_constraintTop_toBottomOf="@+id/floatingActionButton5" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="Similar"
+        app:layout_constraintEnd_toEndOf="@+id/floatingActionButton6"
+        app:layout_constraintStart_toStartOf="@+id/floatingActionButton6"
+        app:layout_constraintTop_toBottomOf="@+id/floatingActionButton6" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Family"
+        app:layout_constraintEnd_toEndOf="@+id/floatingActionButton7"
+        app:layout_constraintStart_toStartOf="@+id/floatingActionButton7"
+        app:layout_constraintTop_toBottomOf="@+id/floatingActionButton7" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="71%"
+        app:layout_constraintEnd_toEndOf="@+id/floatingActionButton8"
+        app:layout_constraintStart_toStartOf="@+id/floatingActionButton8"
+        app:layout_constraintTop_toBottomOf="@+id/floatingActionButton8" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
